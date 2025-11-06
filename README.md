@@ -136,8 +136,8 @@ pip install pandas numpy matplotlib seaborn plotly cufflinks pandas-profiling ch
 
 1. **Clone or download the repository**
    ```bash
-   git clone <repository-url>
-   cd big-mac-analysis
+   git clone https://github.com/petermartens98/Big-Mac-Global-Prices-EDA-2000-to-2022
+   cd Big-Mac-Global-Prices-EDA-2000-to-2022
    ```
 
 2. **Download the dataset**
@@ -147,7 +147,7 @@ pip install pandas numpy matplotlib seaborn plotly cufflinks pandas-profiling ch
 
 3. **Launch Jupyter Notebook**
    ```bash
-   jupyter notebook Big_Mac_Analysis.ipynb
+   jupyter notebook Big Mac Price EDA and Visualization.ipynb
    ```
 
 4. **Run the analysis**
@@ -167,23 +167,6 @@ pip install pandas numpy matplotlib seaborn plotly cufflinks pandas-profiling ch
 | `dollar_price` | float64 | Standardized price in US dollars |
 | `year` | int64 | Extracted year for aggregation (engineered feature) |
 
-## 💡 Usage Examples
-
-### Filter by Country
-```python
-us_data = df[df['name'] == 'United States']
-```
-
-### Calculate Regional Averages
-```python
-eurozone_avg = df[df['name'].isin(eurozone_countries)].groupby('year')['dollar_price'].mean()
-```
-
-### Create Custom Visualizations
-```python
-fig = px.line(df, x='date', y='dollar_price', color='name')
-fig.show()
-```
 
 ## 🔬 Future Enhancements
 
@@ -195,21 +178,6 @@ fig.show()
 - [ ] Expand to include other Big Mac Index periods
 - [ ] Add geographic heat map visualizations
 
-## 📸 Adding Screenshots
-
-To populate the README with your visualizations:
-
-1. Create a `screenshots/` directory in your project folder
-2. Export plots from your notebook (right-click → Save Image)
-3. Save with these exact filenames:
-   - `global_trends.png` - All countries interactive plot
-   - `world_average.png` - Global mean price over time
-   - `price_distribution.png` - Box plots by year
-   - `2022_comparison.png` - Horizontal bar chart for 2022
-   - `2000_baseline.png` - Horizontal bar chart for 2000
-   - `eurozone_analysis.png` - Eurozone comparative plot
-   - `usa_prices.png` - US price history line chart
-   - `comparative_analysis.png` - USA vs Eurozone vs World
 
 ## 🤝 Contributing
 
