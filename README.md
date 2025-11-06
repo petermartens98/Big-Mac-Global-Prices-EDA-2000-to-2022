@@ -24,8 +24,6 @@ This Jupyter notebook analyzes McDonald's Big Mac pricing data to uncover global
 - Matplotlib - Static plots and charts
 - Seaborn - Statistical visualizations
 - Plotly Express - Interactive visualizations
-- Cufflinks - Pandas integration for Plotly
-- Chart Studio - Advanced plotting capabilities
 
 **Analysis:**
 - pandas-profiling - Automated data profiling reports
