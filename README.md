@@ -46,50 +46,50 @@ This Jupyter notebook analyzes McDonald's Big Mac pricing data to uncover global
 
 ### Visualizations
 
-#### 2. World Average Price Evolution
+#### 1. World Average Price Evolution
 Time-series visualization revealing steady price inflation from $2.32 (2000) to $4.00 (2022) - a 72% increase over 22 years.
 
 <img width="635" height="390" alt="image" src="https://github.com/user-attachments/assets/4de981e1-5a44-43bc-97ec-7ffb4079887d" />
 
 
-#### 3. Annual Price Distribution
+#### 2. Annual Price Distribution
 Box plots illustrating price variance, median values, and outliers across each year, highlighting growing price dispersion over time.
 
 <img width="796" height="590" alt="image" src="https://github.com/user-attachments/assets/bda4b73b-3f08-4593-ae67-6cae60f982bc" />
 <img width="770" height="565" alt="image" src="https://github.com/user-attachments/assets/caa3ba0d-8309-4b41-9d0c-88d52589f7dd" />
 
 
-#### 4. 2022 Global Price Ranking
+#### 3. 2022 Global Price Ranking
 Comprehensive horizontal bar chart comparing prices across 70 countries in July 2022, ranging from Kuwait ($1.30) to New Zealand ($7.10).
 
 <img width="345" height="873" alt="image" src="https://github.com/user-attachments/assets/353b9357-a63d-4cd0-82e8-8ade569b2f82" />
 
 
-#### 5. 2000 Baseline Comparison
+#### 4. 2000 Baseline Comparison
 Historical snapshot of Big Mac prices across 28 countries at the project's starting point, providing a baseline for inflation analysis.
 
 <img width="313" height="867" alt="image" src="https://github.com/user-attachments/assets/bee5a40e-5607-4c5d-9d93-c71551d0f7df" />
 
 
-#### 6. Eurozone Deep Dive
+#### 5. Eurozone Deep Dive
 Dual analysis (full history and post-2010) examining price harmonization and divergence across 19 Eurozone countries sharing a common currency.
 
 <img width="829" height="535" alt="image" src="https://github.com/user-attachments/assets/b478e91d-efa8-4820-8981-a8df286fc123" />
 <img width="816" height="521" alt="image" src="https://github.com/user-attachments/assets/bdbe9f77-fb42-4eb7-bf35-4e01ba19de32" />
 
 
-#### 7. United States Price History
+#### 6. United States Price History
 Detailed tracking of US Big Mac prices showing 130% growth from $2.24 to $5.15, with clear visualization of inflationary periods.
 
 <img width="708" height="402" alt="image" src="https://github.com/user-attachments/assets/0cc7f9cd-2400-4084-aeb1-170a8076bccf" />
 
 
-#### 8. Three-Way Comparative Analysis
+#### 7. Three-Way Comparative Analysis
 Side-by-side comparison of USA, Eurozone, and global average prices revealing relative purchasing power and market positioning.
 
 <img width="809" height="503" alt="image" src="https://github.com/user-attachments/assets/e5b88829-ac26-44bc-9400-cfc155b95dcb" />
 
-#### 9. Automated Data Profiling Report
+#### 8. Automated Data Profiling Report
 Comprehensive pandas-profiling report with correlations, distributions, and data quality metrics.
 
 ## 🔍 Key Findings
